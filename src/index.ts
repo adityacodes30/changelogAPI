@@ -1,6 +1,6 @@
 import app from './server'
 import * as dotenv from 'dotenv' //
-dotenv.config()//
+dotenv.config() //
 
 app.listen(3001 , ()=>
 {
