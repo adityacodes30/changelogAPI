@@ -8,6 +8,7 @@ import {
   getProducts,
 } from "./handlers/product";
 import { createUpdate, deleteUpdate, getOneUpdate, getUpdates, updateUpdate } from "./handlers/update";
+import { log } from "console";
 
 const router = Router();
 
@@ -78,5 +79,11 @@ router.post(
   () => {}
 );
 router.delete("/updatepoint/:id", () => {});
+
+
+router.use((err, req, res, next) => {
+  console.log(err);
+  res.json({ message: "server error(in router handler)" });
+});
 
 export default router;
