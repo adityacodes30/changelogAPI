@@ -1,8 +1,8 @@
 # NODE api with postgres modelled for <a href='https://chronos.framer.website/'>Chronos</a>
 
 
-## Changelog API Documentation
-<i> This is a WIP [Work in Progress] </i>
+### Changelog API Documentation
+<i> Note : This is a WIP [Work in Progress] </i>
 
 ## Introduction
 Welcome to the Changelog API documentation! This API, built using the Express framework in Node.js, is designed to manage and track changes and updates for products within an application. Explore the following endpoints for various operations related to products, updates, and update points.
